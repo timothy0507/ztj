@@ -1,4 +1,4 @@
-package pianoweb.util;
+package ztj.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -174,8 +174,8 @@ public class PageSnatch {
 	 */
 	public static void main(String[] args) throws IOException {
 		Generator generator = new Generator();
-		generator.setUrl("http://www.gangqinwang.com/aboutus.jsp");
-		generator.setFilepath("E:/Project/pianoweb/pianoweb");
+		generator.setUrl("http://www.xinaiqin.com/aboutus.html");
+		generator.setFilepath("E:/Project/pianoweb/");
 		PageSnatch pageSnatch = new PageSnatch();
 		System.out.println(pageSnatch.getWebRootPath());
 		// pageSnatch.snatch(page);
